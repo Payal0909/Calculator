@@ -1,0 +1,95 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #ebb2d1;
+}
+#container {
+  width: 1000px;
+  height: 550px;
+  background-image: url(backimg1cpoy.jpg);
+  margin: 20px auto;
+  background-size: cover;
+}
+#calc {
+  width: 320px;
+  height: 520px;
+  background-color: bisque;
+  margin: 0px auto;
+  top: 20px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 14px 22px 21px -11px rgba(27, 207, 164, 0.47);
+}
+#result {
+  height: 120px;
+}
+#keybd {
+  height: 400px;
+}
+#history {
+  text-align: right;
+  height: 20px;
+  margin: 0px 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: black;
+}
+#output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+  color: black;
+}
+.operator,
+.number {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+.operator:active,
+.number:active {
+  font-size: 13px;
+}
+button:nth-child(4) {
+  font-size: 20px;
+  background-color: #f44336;
+}
+button:nth-child(8) {
+  font-size: 20px;
+  background-color: #ffc107;
+}
+button:nth-child(12) {
+  font-size: 20px;
+  background-color: #8bc34a;
+}
+button:nth-child(16) {
+  font-size: 20px;
+  background-color: #7033db82;
+}
+button:nth-child(20) {
+  font-size: 20px;
+  background-color: #3f51b5bd;
+}
+button:nth-child(3) {
+  font-size: 20px;
+  background-color: #03a9f4;
+}
+button:nth-child(1) {
+  font-size: 20px;
+  background-color: #00bcd4;
+}
+button:nth-child(2) {
+  font-size: 20px;
+  background-color: #607d8ba3;
+}
+h2 {
+  text-align: center;
+  color: #ff5722;
+}
